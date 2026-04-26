@@ -1,0 +1,12 @@
+#Para atribuir a função de soma ao sistema, precisa-se usar o tipo primitivo "Int" ou derivados.
+#"Int" = Números Inteiros.
+
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
+r = n1 + n2 
+
+#Método 1: .format em uma unidade.
+print('O resultado entre', n1, 'e', n2, 'vale {}.'.format(r))
+
+#Método 2: .format em unidades cadenciadas.
+print('O resultado entre {} e {} vale {}.'.format(n1, n2, r))
