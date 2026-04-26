@@ -1,0 +1,9 @@
+#Ex002 - Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas vindas.
+
+#Método 1: Simples.
+nome = input('Informe seu Nome: ')
+print('Prazer em tê-lo aqui hoje,',nome,'! Tenha um bom dia.')
+
+#Método 2: ".format".
+nome = input('Informe seu Nome: ')
+print('Prazer em tê-lo aqui hoje, {}! Tenha um bom dia.'.format(nome))
