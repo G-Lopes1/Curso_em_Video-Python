@@ -1,0 +1,8 @@
+#Primeiros Comandos
+
+#Método 1: Adicionar função à uma palavra/caractere.
+mensagem = ('Olá Mundo!')
+print (mensagem)
+
+#Método 2: Atribuir um comando direto através do "Print".
+print ('Olá Mundo!")
