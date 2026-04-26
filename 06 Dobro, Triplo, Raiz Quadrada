@@ -1,0 +1,8 @@
+#Crie um algoritmo que leia um número e mostre seu dobro, triplo e raiz quadrada.
+
+n = int(input(print('Digite um Número: ')))
+
+print('O Dobro* de {} é {}\nO Triplo* é {}\nA Raiz Quadrada** é {:.3f}'.format(n, n*2, n*3, n**(1/2)))
+
+#Os caracteres utlizados "{:.3f}" limitam a quantidade de números mostrados em caso de um número float...
+#Exemplo: Raiz Quadrada de 5 sem a limitação imposta é 2.23606797749979, com a limitação, fica como 2.236 ("3f")
