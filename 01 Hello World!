@@ -6,4 +6,3 @@ print (mensagem)
 
 #Método 2: Atribuir um comando direto através do "Print".
 print ('Olá Mundo!')
-
