@@ -1,0 +1,9 @@
+#Faça um programa que leia um Número Inteiro e mostre seu Sucessor e Antecessor.
+
+ni = int(input(print('Número Inteiro: ')))
+
+print('O Número Sucessor de {} é {}'.format(ni, ni+1), end='')
+print('O Antecessor de {} é {}'.format(ni, ni-1))
+
+#"end=''" no fim de uma linha permite unificar duas linhas de função print.
+#"\n" no meio de uma linha permite quebrar o código seguinte para uma nova linha abaixo.
